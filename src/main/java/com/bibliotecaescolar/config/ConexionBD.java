@@ -1,4 +1,4 @@
-package com.bibliotecaescolar.controlador;
+package com.bibliotecaescolar.config;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

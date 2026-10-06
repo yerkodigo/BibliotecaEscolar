@@ -1,6 +1,6 @@
 package com.bibliotecaescolar.main;
 
-import com.bibliotecaescolar.controlador.ConexionBD;
+import com.bibliotecaescolar.config.ConexionBD;
 
 import javax.swing.*;
 import java.sql.Connection;
