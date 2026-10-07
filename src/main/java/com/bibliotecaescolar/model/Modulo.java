@@ -1,4 +1,10 @@
 package com.bibliotecaescolar.model;
 
-public class Modulo {
+public enum Modulo {
+    LIBROS,
+    CONSULTA,
+    ESTUDIANTES,
+    USUARIOS,
+    PRESTAMOS,
+    REPORTES
 }
