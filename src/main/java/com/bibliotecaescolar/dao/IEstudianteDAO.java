@@ -1,4 +1,9 @@
 package com.bibliotecaescolar.dao;
 
-public interface IEstudianteDAO {
+import com.bibliotecaescolar.model.Estudiante;
+
+import java.sql.SQLException;
+
+public interface IEstudianteDAO extends ICrudDAO<Estudiante> {
+    public Estudiante readByRut(String rut) throws SQLException;
 }
